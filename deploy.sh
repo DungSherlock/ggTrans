@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p 'Noi dung commit: ' commitVar
+# read -p 'Noi dung commit: ' commitVar
 git add -A .
-git commit -m """$commitVar""" --allow-empty
+git commit -m "ggTrans" --allow-empty
 git push
 
 gitCommit=`git rev-parse HEAD`
