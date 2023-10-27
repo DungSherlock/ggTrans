@@ -8,8 +8,6 @@ git push
 gitCommit=`git rev-parse HEAD`
 link="https://raw.githubusercontent.com/DungSherlock/ggTrans/${gitCommit}/source.txt"
 
-echo $link
-exit
 echo '[InternetShortcut]\
 URL='$link > ggTrans.url
 open -a "Microsoft Edge" ggTrans.url
