@@ -1,35 +1,37 @@
+WEBVTT
+
 1
-00:00:00,256 --> 00:00:06,400
+00:00:00.256 --> 00:00:06.400
 Every hour give yourself a crash course in inner engineering before somebody
 
 2
-00:00:06,656 --> 00:00:12,800
+00:00:06.656 --> 00:00:12.800
 Can you give yourself a 2-minute crash course just remind yourself of a few things
 
 3
-00:00:13,056 --> 00:00:19,200
+00:00:13.056 --> 00:00:19.200
 Just remind yourself it takes 2 minutes consciously not just a start honestly
 
 4
-00:00:19,456 --> 00:00:25,600
+00:00:19.456 --> 00:00:25.600
 You do that and see it will work wonderfully remind yourself
 
 5
-00:00:25,856 --> 00:00:29,952
+00:00:25.856 --> 00:00:29.952
 All the rules on my rules
 
 6
-00:00:51,200 --> 00:00:57,344
+00:00:51.200 --> 00:00:57.344
 I'm responsible for everything
 
 7
-00:01:13,984 --> 00:01:20,128
+00:01:13.984 --> 00:01:20.128
 What is there right now is already said cannot be any other way
 
 8
-00:01:37,280 --> 00:01:43,424
+00:01:37.280 --> 00:01:43.424
 I'm not this body I'm not this mine
 
 9
-00:02:00,320 --> 00:02:06,464
+00:02:00.320 --> 00:02:06.464
 I am a mother to the world
