@@ -6,9 +6,12 @@ git commit -m """$commitVar""" --allow-empty
 git push
 
 gitCommit=`git rev-parse HEAD`
-link=`https://raw-githubusercontent-com.translate.goog/DungSherlock/eBay/`$gitCommit`/ggTrans?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=wapp`
+link="https://raw.githubusercontent.com/DungSherlock/ggTrans/${gitCommit}/source.txt"
 
+echo $link
+exit
 echo '[InternetShortcut]\
 URL='$link > ggTrans.url
 open -a "Microsoft Edge" ggTrans.url
 exit
+
