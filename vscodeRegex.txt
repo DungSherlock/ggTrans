@@ -1,9 +1,12 @@
 * Tìm các hàng chữ cái xuống dòng đưa lên 1 hàng
 ([a-z,.! ])\n([a-z])
 $1 $2
-* Tìm chữ cái viết thường để đưa lên 1 hàng với dòng bên trên
+* Tìm chữ cái viết thường để đưa lên 1 hàng với dòng bên trên (bật phân biệt hoa thường)
 \n^([a-z])
  $1
 
-
+* Xoá các hàng NGOẠI TRỪ các hàng có dấu # ở đầu và cuối của hàng kèm dấu xuống dòng
 ^[^#]*\n#
+
+* Copy audio gốc cho hàng loạt file video .mp4 trong cùng 1 thư mục sang định dạng .aac (cd tới thư mục chứa file .mp4 để chạy script)
+find . -name "*.mp4" -exec sh -c 'ffmpeg -i "$0" -c:a copy "$(basename "$0" .mp4).aac"' {} \;
