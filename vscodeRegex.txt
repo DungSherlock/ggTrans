@@ -1,0 +1,9 @@
+* Tìm các hàng chữ cái xuống dòng đưa lên 1 hàng
+([a-z,.! ])\n([a-z])
+$1 $2
+* Tìm chữ cái viết thường để đưa lên 1 hàng với dòng bên trên
+\n^([a-z])
+ $1
+
+
+^[^#]*\n#
