@@ -29,5 +29,5 @@ URL=${link}" > "${file%.*}".url
 done
 
 rm -f *.url
-rm -f *.txt
+# rm -f *.txt
 git push
