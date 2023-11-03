@@ -29,6 +29,6 @@ URL=${link}" > "${file%.*}".url
 done
 
 rm -f *.url
-pause
+read -p "Press any key to continue... " -n1 -s
 rm -f *.vtt
 git push
