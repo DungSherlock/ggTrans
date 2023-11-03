@@ -29,5 +29,6 @@ URL=${link}" > "${file%.*}".url
 done
 
 rm -f *.url
+pause
 rm -f *.vtt
 git push
