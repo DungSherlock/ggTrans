@@ -10,3 +10,8 @@ $1 $2
 
 * Copy audio gốc cho hàng loạt file video .mp4 trong cùng 1 thư mục sang định dạng .aac (cd tới thư mục chứa file .mp4 để chạy script)
 find . -name "*.mp4" -exec sh -c 'ffmpeg -i "$0" -c:a copy "$(basename "$0" .mp4).aac"' {} \;
+
+* Xoá dữ liệu bắt đầu bằng ``` kết thúc bằng ``` chứa nội dung số (bao gồm cả dấu cách)
+```[\d\s]+```\n
+* Dữ liệu chỉ bao gồm số từ 0-9 và dấu cách
+^\d[\d\s]*\d$\n
